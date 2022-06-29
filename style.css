@@ -1,0 +1,83 @@
+.container { 
+	 display: grid;
+  grid-template-columns: 0.2fr 0.7fr 2fr 0.7fr 0.2fr;
+  grid-template-rows: 100px 300px 300px 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  background-color: #303030;
+  grid-template-areas:
+    ". Head Head Head ."
+    ". Visualization-Search-Category Visualization-Map Selection-Popularity ."
+    ". Category-List Visualization-Map Peak-Flow-Chart ."
+    ". Description-Area Description-Area Description-Area .";
+
+}
+
+.Head { 
+	grid-area: Head; 
+	background-color: green;
+}
+
+.Visualization-Map { 
+	grid-area: Visualization-Map; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Visualization-Search-Category { 
+	grid-area: Visualization-Search-Category; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Category-List { 
+	grid-area: Category-List; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Selection-Popularity { 
+	grid-area: Selection-Popularity; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Peak-Flow-Chart { 
+	grid-area: Peak-Flow-Chart; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Description-Area { 
+	grid-area: Description-Area; 
+	background-image: url("parchment.jpg");
+	background-size: 100% 100%;
+}
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+
+}
+
+/* For presentation only, no need to copy the code below */
+
+.container * {
+  position: relative;
+
+}
+
+.container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+
