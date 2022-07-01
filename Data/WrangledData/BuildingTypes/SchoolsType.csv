@@ -1,0 +1,5 @@
+businessType,businessID,costValue,maxOccupancy ,numberOfRooms,location,buildingId,costUnit
+school,0,12.81244502,242,1,POINT (-376.7505037068263 1607.9843212558562),662,monthlyEnrollment
+school,450,91.14351385,418,1,POINT (-2597.447677094323 3194.1547530883445),943,monthlyEnrollment
+school,900,38.00537955,394,1,POINT (-2539.1584040534744 6556.0323181733565),262,monthlyEnrollment
+school,1350,73.19785215,384,1,POINT (-4701.462928834322 5141.762936081409),123,monthlyEnrollment
