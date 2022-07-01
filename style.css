@@ -1,15 +1,16 @@
 .container { 
 	 display: grid;
   grid-template-columns: 0.2fr 0.7fr 2fr 0.7fr 0.2fr;
-  grid-template-rows: 100px 300px 300px 1fr;
+  grid-template-rows: 100px 1fr 300px 300px 1fr;
   gap: 5px 5px;
   grid-auto-flow: row;
   background-color: #303030;
   grid-template-areas:
     ". Head Head Head ."
+    ". Description-Area-Upper Description-Area-Upper Description-Area-Upper ."
     ". Visualization-Search-Category Visualization-Map Selection-Popularity ."
     ". Category-List Visualization-Map Peak-Flow-Chart ."
-    ". Description-Area Description-Area Description-Area .";
+    ". Description-Area-Lower Description-Area-Lower Description-Area-Lower .";
 
 }
 
@@ -48,8 +49,14 @@
 	background-size: 100% 100%;
 }
 
-.Description-Area { 
-	grid-area: Description-Area; 
+.Description-Area-Upper { 
+	grid-area: Description-Area-Upper; 
+	background-image: url("ImageAssets/parchment.jpg");
+	background-size: 100% 100%;
+}
+
+.Description-Area-Lower { 
+	grid-area: Description-Area-Lower; 
 	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
@@ -69,7 +76,6 @@ html, body , .container {
 }
 
 .container *:after {
-  content:attr(class);
   position: absolute;
   top: 0;
   left: 0;
