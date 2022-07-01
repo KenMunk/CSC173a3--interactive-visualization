@@ -20,37 +20,37 @@
 
 .Visualization-Map { 
 	grid-area: Visualization-Map; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
 .Visualization-Search-Category { 
 	grid-area: Visualization-Search-Category; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
 .Category-List { 
 	grid-area: Category-List; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
 .Selection-Popularity { 
 	grid-area: Selection-Popularity; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
 .Peak-Flow-Chart { 
 	grid-area: Peak-Flow-Chart; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
 .Description-Area { 
 	grid-area: Description-Area; 
-	background-image: url("parchment.jpg");
+	background-image: url("ImageAssets/parchment.jpg");
 	background-size: 100% 100%;
 }
 
